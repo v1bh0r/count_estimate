@@ -1,3 +1,18 @@
 = CountEstimate
 
-This project rocks and uses MIT-LICENSE.
+Based on the article https://wiki.postgresql.org/wiki/Count_estimate.
+
+It currently supports only Postgres.
+
+== Installation
+gem install count_estimate
+
+=== Add the postgres function that makes the estamate calculations
+bundle exec rake count_estimate:install 
+
+== Uninstallation
+=== Remove the postgres function that makes the estamate calculations
+bundle exec rake count_estimate:uninstall
+
+== Example Usage
+User.all.count_estimate
