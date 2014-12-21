@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = CountEstimate::VERSION
   s.authors     = ["Vibhor Mahajan"]
   s.email       = ["vibhor.mahajan@gmail.com"]
-  s.homepage    = "http://github.com/vibhor86"
+  s.homepage    = "https://github.com/vibhor86/count_estimate"
   s.summary     = "Estimates number of rows returned by a query"
-  s.description = "https://wiki.postgresql.org/wiki/Count_estimate"
+  s.description = "Adds a method count_estimate to ActiveRecord::Relation based on https://wiki.postgresql.org/wiki/Count_estimate"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
