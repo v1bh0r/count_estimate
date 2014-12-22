@@ -7,11 +7,11 @@ It currently supports only Postgres.
 == Installation
 gem install count_estimate
 
-=== Add the postgres function that makes the estamate calculations
+=== Add the postgres function that makes the estimate calculations
 bundle exec rake count_estimate:install 
 
 == Uninstallation
-=== Remove the postgres function that makes the estamate calculations
+=== Remove the postgres function that makes the estimate calculations
 bundle exec rake count_estimate:uninstall
 
 == Example Usage
