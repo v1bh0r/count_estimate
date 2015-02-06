@@ -16,3 +16,6 @@ bundle exec rake count_estimate:uninstall
 
 == Example Usage
 User.all.count_estimate
+
+== License
+Released under the MIT license - http://opensource.org/licenses/MIT
